@@ -2,3 +2,4 @@
 
 关联`issue`:
 - [this plugin not work for me](https://github.com/import-js/eslint-plugin-import/issues/2927)
+- [eslint-plugin-import error/not work](https://github.com/microsoft/vscode-eslint/issues/1738)
