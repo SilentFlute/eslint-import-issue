@@ -1,0 +1,65 @@
+.index-conatainer {
+  display: flex;
+  .index-left {
+    width: 70%;
+    padding-right: 12px;
+  }
+  .index-right {
+    width: 30%;
+    .tab-children-1-container {
+      display: flex;
+      justify-content: space-evenly;
+      .tab-children-1-item {
+        width: 25%;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px -2px,
+        rgba(0, 0, 0, 0.12) 0px 3px 6px 0px,
+        rgba(0, 0, 0, 0.09) 0px 5px 12px 4px;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        .count {
+          font-size: 32px;
+        }
+        .title {
+          font-size: 20px;
+        }
+      }
+      .tab-children-1-item--1 {
+        background-color: rgba(255, 0, 0, 0.8);
+      }
+      .tab-children-1-item--2 {
+        background-color: rgba(0, 255, 0, 0.8);
+      }
+      .tab-children-1-item--3 {
+        background-color: rgba(0, 0, 255, 0.8);
+      }
+    }
+    .tab-children-2-container {
+      height: 100px;
+      display: flex;
+      justify-content: space-evenly;
+      .tab-children-2-item {
+        .title {
+          height: 22px;
+          color: rgba(0,0,0,.45);
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .count {
+          height: 38px;
+          margin-top: 4px;
+          margin-bottom: 0;
+          overflow: hidden;
+          color: rgba(0,0,0,.85);
+          font-size: 30px;
+          line-height: 38px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+}
